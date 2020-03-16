@@ -1,0 +1,173 @@
+/*Fake  Google Css*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+#container {
+    width: 560px;
+    text-align: center;
+    margin: 140px auto 0;
+}
+
+h1#logo {
+    width: 272px;
+    height: 92px;
+    background: url('images/google.png') top left no-repeat;
+    background-size: 100%;
+    text-indent: -9999px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 467px;
+    padding: 9px;
+    font-size: 16px;
+    margin: 25px auto 30px;
+    border: solid 1px #DDD;
+    outline-color: #CCC;
+}
+
+input[type="text"]:hover {
+    border color: #AAA;
+}
+
+input[type="submit"] {
+    background: #f2f2f2;
+    color: #757575;
+    border: solid 1px #f2f2f2;
+    padding: 5px 16px;
+    font-weight: bolder;
+    font-size: 13.5px;
+    height: 35px;
+    margin: 0 2px;
+}
+
+input[type="submit"]:hover {
+    border-color: #CCC;
+    color: #333;
+}
+
+small {
+    display: block;
+    margin: 25px 0 0;
+    font-size: 12px;
+}
+
+a:link,
+a:visited {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav#header {
+    text-align: right;
+    padding: 20px;
+}
+
+nav#header ul li,
+footer ul li,
+footer ul {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li {
+    line-height: 40px;
+    color: #DDD;
+    margin-right: 10px;
+}
+
+nav#header ul li:link,
+nav#header ul a:visited {
+    color: #555;
+    padding: 0 8px;
+}
+
+nav#header .blue-btn a:link,
+nav#header .blue-btn a:visited {
+    padding: 15px;
+    color: white;
+}
+
+nav#header .blue-btn a:hover {
+    text-decoration: none;
+    cursor: default;
+}
+
+header {
+    margin-top: 5px;
+    margin-right: 18px;
+}
+
+footer {
+    background: #DDD;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: solid 1px #DDD;
+    height: 40px;
+}
+
+footer ul li:link,
+footer ul a:visited {
+    color: #555;
+    padding: 0px 8px;
+}
+
+.leftLinks {
+    margin-left: 12px;
+}
+
+.rightLinks {
+    float: right;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#logocontainer {
+    position: relative;
+    width: 272px;
+    height: 92px;
+    margin: 0 auto;
+}
+
+.country {
+    color: #4285f4;
+    font-family: cursiveroboto-normal, arial, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    right: 22px;
+}
+
+.blue-btn {
+    position: relative;
+    background: #4387fd;
+    border: solid 1px #4285f4;
+    font-weight: bold;
+    padding: 6px;
+}
+
+.blue-btn:hover {
+    border-bottom-color: #ccc;
+}
+
+.blue-btn:active {
+    top: 1px;
+    background: #065ef4;
+}
